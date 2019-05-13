@@ -1,0 +1,21 @@
+.electedOfficialContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: 10em;
+}
+
+.addForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8em 5em 8em;
+    margin: 4em 0em 3em;
+    border: 5px solid #c2a83e;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px black;
+}

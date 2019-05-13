@@ -1,0 +1,159 @@
+.legContainer {
+    background-size: cover;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    width: 90%;
+    position: relative;  
+    background-color: #243e36;
+}
+
+
+label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F1f7ed;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+    font-size: 2em;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: flex-start;
+    color: #f1f7ed;
+    margin-bottom: 25px;
+    margin-top: -1.5em;
+    padding: 5px;
+    border-bottom: 4px solid #931f1d;
+    font-size: 3em;
+    width: 100%;    
+}
+
+.photo {
+    width: 20em;
+    border:5px solid #e2baba;
+}
+
+.stateSearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: .5em;
+    padding-top: 1em;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F1f7ed;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+    font-size: 25px;
+    margin: 30px 50px 0px 0px;
+    padding: 10px;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    size: fill;   
+}
+
+.legCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #f1f7ed;
+    border:5px solid #e2baba;
+    padding: 1em 10em;  
+    margin: 20px 0px;
+}
+
+img {
+    width: 50%;
+}
+
+.addBtn {
+    padding: 5px 15px;
+    margin: 15px 0px 0px;
+    font-family: 'Segoe UI';
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #f1f7ed;
+}
+
+.editBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Btn {
+    padding: 5px;
+    width: 5em;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    background-color: #931f1d;
+    color: #f1f7ed;
+    border-radius: 5px;
+    border: 2px solid #f1f7ed;
+    box-shadow: 2px 2px 10px #a58a8a;
+    margin: 0px 15px;
+}
+
+.editInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: 18em;
+}
+
+input {
+    border: 1px solid #243e36;
+    border-radius: 3px;
+    padding: 8px;
+    display: flex;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    padding: 10px;
+}
